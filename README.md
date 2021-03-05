@@ -8,7 +8,11 @@ A simple and classic login page wich i've made when i was bored.
 # Problems
 - It's not fully responsive yet, i have to do this later.
 
-### Installation
+# Screenshots:
+
+![image](https://user-images.githubusercontent.com/75149027/110135132-e8e37600-7dac-11eb-901b-f48126d543fc.png)
+
+## Installation
 
 ```sh
 $ git clone https://github.com/LureDev/Classic-Login-Page
