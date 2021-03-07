@@ -121,8 +121,7 @@ colorir{
 
 .login form input[type="text"], .login form input[type="password"]{
     margin-top: 10px;
-    width: 100%;
-    max-width: 300px;
+    width: 300px;
     outline: 0;
     border: 2px solid #ccc;
     border-radius: 2px;
@@ -135,6 +134,7 @@ colorir{
 .login form input[type="text"]:focus, .login form input[type="password"]:focus{
     border-color: rgb(57, 84, 202);
     font-weight: bold;
+    width: 320px;
 }
 
 .login form input[type="submit"]{
@@ -181,5 +181,33 @@ colorir{
 @media screen and (max-width: 1100px){
     .login-wraper{
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 760px){
+    main{
+        width: 100%;
+        max-height: none;
+        min-height: 100%;
+        padding: 10px 0;
+    }
+
+    .right-image{
+        width: 100%;
+    }
+
+    .right-image .center-text h1{
+        max-width: none;
+        text-align: center;
+        font-size: 45px;
+        margin: 100px auto;
+    }
+
+    .page-wraper{
+        flex-direction: column;
+    }
+
+    .login form input[type="text"]:focus, .login form input[type="password"]{
+        max-width: 300px;
     }
 }
