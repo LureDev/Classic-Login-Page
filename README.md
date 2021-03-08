@@ -4,9 +4,7 @@ A simple and classic login page wich i've made when i was bored.
 
 # About
   - Single-Page project.
-
-# Problems
-- It's not fully responsive yet, i have to do this later.
+  - Fully responsive.
 
 # Screenshots:
 
