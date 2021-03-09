@@ -4,7 +4,7 @@ A simple and classic login page wich i've made when i was bored.
 
 # About
   - Single-Page project.
-  - Fully responsive.
+  - Responsive in mobile and desktop devices.
 
 # Screenshots:
 
