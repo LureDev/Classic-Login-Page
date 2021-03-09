@@ -27,7 +27,7 @@ $(window).on('load', () => {
             }).focusout(() => {
                 $('main').css('height', '100%').css('min-height', '100%');
             });
-// Ver oq o focusin e o focusout fazem na api do jquery
+
             pwdInput.focusin(() => {
                 $('main').css('height', 'auto').css('min-height', 'auto');
             }).focusout(() => {
