@@ -8,7 +8,8 @@ A simple and classic login page wich i've made when i was bored.
 
 # Screenshots:
 
-![image](https://user-images.githubusercontent.com/75149027/110135132-e8e37600-7dac-11eb-901b-f48126d543fc.png)
+![image](https://user-images.githubusercontent.com/75149027/110553856-73630700-8118-11eb-8b4b-0acdc45d2018.png)
+
 
 ## Installation
 
