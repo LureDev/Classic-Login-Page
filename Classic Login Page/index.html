@@ -39,12 +39,18 @@
                         <form method="POST" autocomplete="off">
                             <div class="input-wraper">
                                 <p>Username / E-mail:</p>
-                                <input type="text" name="username" required >
+                                <input type="text" name="username" required id="username-input">
                             </div><!-- input-wraper -->
 
                             <div class="input-wraper">
                                 <p>Password:</p>
-                                <input type="password" name="username" required>
+                                <div class="pwd-wraper">
+                                    <input type="password" name="username" required id="pwd-input">
+
+                                    <div class="icon-container">
+                                        <i class="fas fa-eye" id="show-pwd"></i>
+                                    </div><!-- icon-container -->
+                                </div><!-- pwd-wraper -->
                             </div><!-- input-wraper -->
 
                             <div class="input-wraper">
@@ -62,5 +68,9 @@
             </div><!-- center-text -->
         </section><!-- right-image -->
     </div><!-- page-wraper -->
+
+    <script src="js/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/54939c7b7c.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
