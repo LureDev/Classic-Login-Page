@@ -122,19 +122,30 @@ colorir{
 .login form input[type="text"], .login form input[type="password"]{
     margin-top: 10px;
     width: 300px;
+    height: 35px;
+    line-height: 35px;
     outline: 0;
     border: 2px solid #ccc;
     border-radius: 2px;
-    height: 35px;
-    line-height: 30px;
     padding-left: 5px;
     transition: .2s border;
+}
+
+.pwd-wraper{
+    position: relative;
+}
+
+.icon-container{
+    position: absolute;
+    top: 17px;
+    left: 265px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .login form input[type="text"]:focus, .login form input[type="password"]:focus{
     border-color: rgb(57, 84, 202);
     font-weight: bold;
-    width: 320px;
 }
 
 .login form input[type="submit"]{
@@ -162,6 +173,7 @@ colorir{
     background-position: center;
     display: inline-block;
     background-size: cover;
+    padding: 0 30px;
 }
 
 .right-image .center-text{
@@ -187,8 +199,7 @@ colorir{
 @media screen and (max-width: 760px){
     main{
         width: 100%;
-        max-height: none;
-        min-height: 100%;
+        min-height: 100vh;
         padding: 10px 0;
     }
 
@@ -207,7 +218,21 @@ colorir{
         flex-direction: column;
     }
 
-    .login form input[type="text"]:focus, .login form input[type="password"]{
+    .login form input[type="text"], .login form input[type="password"]{
         max-width: 300px;
+    }
+
+    .login form input[type="submit"]:active{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .login form input[type="text"], .login form input[type="password"]{
+        max-width: 90%;
+    }
+
+    .icon-container{
+        left: 78%;
     }
 }
